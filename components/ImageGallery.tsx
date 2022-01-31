@@ -16,25 +16,26 @@ const ImageGallery = () => {
         <> 
             {/* Desktop */}
             <Flex display={["none", "none", "flex", "flex"]} wrap="wrap" justify="center" align="center">
-                <Box width="25vw">
+                <Box  display="flex" width="25vw" overflow="hidden">
                     <Image 
                         src={milkDesktop}
                         alt='milk'
+                        objectPosition="bottom"
                     />
                 </Box>
-                <Box width="25vw">
+                <Box  display="flex" width="25vw" overflow="hidden">
                     <Image 
                         src={orangeDesktop}
                         alt='orange'
                     />
                 </Box>
-                <Box width="25vw">
+                <Box  display="flex" width="25vw" overflow="hidden">
                     <Image 
                         src={coneDesktop}
                         alt='cone'
                     />
                 </Box>
-                <Box width="25vw">
+                <Box display="flex" width="25vw" overflow="hidden">
                     <Image 
                         src={sugarDesktop}
                         alt='sugar'

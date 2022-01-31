@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Flex } from '@chakra-ui/react'
 
 import Navbar from './Navbar';
+import Footer from './Footer'
 
 const Layout = ({ children }:{children:any}) => {
     return (
@@ -17,7 +18,7 @@ const Layout = ({ children }:{children:any}) => {
                     {children}
                 </main>
                 <footer>
-                    Footer
+                    <Footer />
                 </footer>
             </Flex>
         </>
