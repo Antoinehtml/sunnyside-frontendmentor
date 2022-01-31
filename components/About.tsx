@@ -30,12 +30,12 @@ const About = () => {
           <Heading as="h2" mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} fontSize={["4xl", "4xl", "2xl", "4xl"]}>
             Transform your <br />brand
           </Heading>
-          <Text as="p" mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} color={customColors.darkGrayishBlue}>
+          <Text mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} color={customColors.darkGrayishBlue}>
             We are a full-service creative agency specializing in 
-            <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+            <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
             helping brands grow fast. 
             Engage your clients through 
-            <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+            <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
             compelling visuals that do most of the marketing for you.
           </Text>
           <NextLink href="/about" passHref>
@@ -94,14 +94,14 @@ const About = () => {
         <Flex direction="column" justify="center" align={["center", "center", "flex-start", "flex-start"]} w={["100%", "100%", "50%", "50%"]} h="100%" p={["80px 30px", "80px 40px", "0 80px", "0 100px"]}>
           <Heading as="h2" mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} fontSize={["4xl", "4xl", "2xl", "4xl"]}>
             Stand out to the right 
-            <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+            <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
             audience
           </Heading>
-          <Text as="p" mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} color={customColors.darkGrayishBlue}>
+          <Text mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} color={customColors.darkGrayishBlue}>
             Using a collaborative formula of designers, researchers, 
-            <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+            <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
             photographers, videographers, and copywriters, we&apos;ll 
-            <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+            <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
             build and extend your brand in digital places.
           </Text>
           <NextLink href="/about" passHref>
@@ -129,7 +129,7 @@ const About = () => {
             <Heading  as="h2" color={customColors.darkCyan}>
               Graphic Design
             </Heading>
-            <Text as="p" textAlign="center" p="20px" color={customColors.darkCyan}>
+            <Text textAlign="center" p="20px" color={customColors.darkCyan}>
               Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client&apos;s attention.
             </Text>
           </Flex>
@@ -146,11 +146,11 @@ const About = () => {
             <Heading  fontSize="xl" as="h2" color={customColors.darkCyan}>
               Graphic Design
             </Heading>
-            <Text as="p" fontSize="smaller" textAlign="center" p="20px 60px" color={customColors.darkCyan}>
+            <Text fontSize="smaller" textAlign="center" p="20px 60px" color={customColors.darkCyan}>
               Great design makes you memorable. We deliver 
-              <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+              <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
               artwork that underscores your brand message 
-              <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+              <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
               and captures potential client&apos;s attention.
             </Text>
           </Flex>
@@ -168,7 +168,7 @@ const About = () => {
             <Heading  as="h2" color={customColors.darkBlue}>
               Photography
             </Heading>
-            <Text as="p" textAlign="center" padding="20px" color={customColors.darkBlue}>
+            <Text textAlign="center" padding="20px" color={customColors.darkBlue}>
               Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
             </Text>
           </Flex>
@@ -185,11 +185,11 @@ const About = () => {
             <Heading  as="h2" fontSize="xl" color={customColors.darkBlue}>
               Photography
             </Heading>
-            <Text as="p" fontSize="smaller" textAlign="center" padding="20px" color={customColors.darkBlue} p="20px 60px">
+            <Text fontSize="smaller" textAlign="center" padding="20px" color={customColors.darkBlue} p="20px 60px">
               Increase your credibility by getting the most 
-              <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+              <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
               stunning, high-quality photos that improve your 
-              <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
+              <Text h="0" display={["none", "none", "none", "flex"]}><br /></Text>
               business image.
             </Text>
           </Flex>

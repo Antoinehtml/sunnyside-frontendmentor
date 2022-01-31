@@ -18,69 +18,68 @@ const Footer = () => {
                 sunnyside
             </Heading>
             <Flex mb="60px">
-                <Box mr="30px">
+                
                     <NextLink href="/about" passHref>
-                        <Text fontSize={["15px", "15px", "10px", "10px"]} color={customColors.darkMediumCyan}>
+                        <Text fontSize={["15px", "15px", "10px", "10px"]} color={customColors.darkMediumCyan} mr="30px">
                             About 
                         </Text>
                     </NextLink>
-                </Box>
-                <Box mr="30px">
+                
+                
                     <NextLink href="/services" passHref>
-                        <Text fontSize={["15px", "15px", "10px", "10px"]} color={customColors.darkMediumCyan}>
+                        <Text fontSize={["15px", "15px", "10px", "10px"]} color={customColors.darkMediumCyan} mr="30px">
                             Services
                         </Text>
                     </NextLink>
-                </Box>
-                <Box>
+                
+                
                     <NextLink href="/projects" passHref>
                         <Text fontSize={["15px", "15px", "10px", "10px"]} color={customColors.darkMediumCyan}>
                             Projects
                         </Text>
                     </NextLink>
-                </Box>
             </Flex>
             <Flex >
-                <Box mr="15px">                
-                    <NextLink href="/" passHref>
+                <NextLink href="/" passHref>
+                    <Box mr="15px">                
                         <Image 
                             src={facebook}
                             alt="facebook icon"
                             width="15px"
                             height="15px"
                         />
-                    </NextLink>
-                </Box>
-                <Box mr="15px">
-                <NextLink href="/" passHref>
-                    <Image 
-                        src={instagram}
-                        alt="instagram icon"
-                        width="15px"
-                        height="15px"
-                    />
+                    </Box>
                 </NextLink>
-                </Box>
-                <Box mr="15px">
-                    <NextLink href="/" passHref>
+                <NextLink href="/" passHref>
+                    <Box mr="15px">
+                        <Image 
+                            src={instagram}
+                            alt="instagram icon"
+                            width="15px"
+                            height="15px"
+                        />
+                    </Box>
+                </NextLink>
+                <NextLink href="/" passHref>
+                    <Box mr="15px">
                         <Image 
                             src={twitter}
                             alt="twitter icon"
                             width="15px"
                             height="15px"
-                        />
-                    </NextLink>
-                </Box>
-                <Box>
-                    <NextLink href="/" passHref>
+                            />
+                    </Box>
+                </NextLink>
+                <NextLink href="/" passHref>
+                    <Box>
                         <Image 
                             src={pinterest}
                             alt="pinterest icon"
                             width="15px"
                             height="15px"
-                        />            
-                    </NextLink>
-                </Box>
+                            />            
+                    </Box>
+                </NextLink>
             </Flex>
         </Flex>
     )

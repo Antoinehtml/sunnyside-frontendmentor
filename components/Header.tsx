@@ -5,7 +5,7 @@ import bgImageMobile from '../assets/images/mobile/image-header.jpg'
 
 import arrowDown from '../assets/images/icon-arrow-down.svg'
 
-
+import { motion } from 'framer-motion'
 
 
 const Header = () => {
@@ -27,17 +27,47 @@ const Header = () => {
             objectPosition="bottom"
           />
         </Flex>
-        <Heading textAlign="center" as="h1" textTransform="uppercase" position="absolute" top="20%" color="white" letterSpacing={["5px", "5px", "10px", "10px"]} fontSize={["4xl", "4xl", "5xl", "5xl"]}>
-          we are creatives
-        </Heading>
+        <Flex position="absolute" align="center" top="20%">
+          <Heading textAlign="center" as="h1" textTransform="uppercase"  color="white" letterSpacing={["5px", "5px", "10px", "10px"]} fontSize={["4xl", "4xl", "5xl", "5xl"]}>
+              we are 
+          </Heading>
+          <motion.div initial="hidden"animate="visible" variants={{
+            hidden: {
+              opacity: 0
+            },
+            visible: {
+              opacity: 1,
+              transition: {
+                duration: 2,
+                delay: 2
+              }
+            }
+          }}>
+            <Heading textAlign="center" as="h1" textTransform="uppercase"  color="white" letterSpacing={["5px", "5px", "10px", "10px"]} fontSize={["4xl", "4xl", "5xl", "5xl"]} ml="20px">
+              creatives
+            </Heading>
+          </motion.div>  
+        </Flex>
+          
         <Box position="absolute" top="45%">
-          <Image 
-            src={arrowDown}
-            alt='arrow down icon'
-          />
+          <motion.div animate={{
+            y: 30,
+            transition: {
+              yoyo: Infinity,
+              duration: .8,
+              delay: 2.5
+            },
+          }}>
+            <Image 
+              src={arrowDown}
+              alt='arrow down icon'
+            />
+          </motion.div>
         </Box>
       </Flex>
     )
 };
+
+
 
 export default Header;
