@@ -9,7 +9,7 @@ const Layout = ({ children }:{children:any}) => {
             <Head>
                 <title>Sunnyside Studio</title>
             </Head>
-            <Flex direction="column" >
+            <Flex direction="column" width="100vw">
                 <header>
                     <Navbar />
                 </header>

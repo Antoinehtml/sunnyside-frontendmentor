@@ -8,7 +8,7 @@ import ImageGallery from '../components/ImageGallery'
 
 const Home: NextPage = () => {
   return (
-    <Flex direction="column" justify="center" align="center">
+    <Flex direction="column" justify="center" align="center" width="100vw">
       <Header />
       <About />
       <Testimonials />
