@@ -55,7 +55,7 @@ const Testimonials = () => {
                     </Flex>
                     <Flex>
                         <Text textAlign="center" mb={["30px", "30px", "40px", "40px"]} p="0 30px" fontSize="sm" color={customColors.veryDarkGrayishBlue} lineHeight="25px">
-                            Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
+                            Sunnyside&apos;s enthusiasm coupled with their keen interest in our brand&apos;s success made it a satisfying and enjoyable experience.
                         </Text>
                     </Flex>
                     <Flex direction="column" align="center" mb="60px">
