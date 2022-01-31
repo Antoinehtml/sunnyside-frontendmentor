@@ -100,7 +100,7 @@ const About = () => {
           <Text as="p" mb={["15px", "15px", "25px", "25px"]} textAlign={["center", "center", "initial", "initial"]} color={customColors.darkGrayishBlue}>
             Using a collaborative formula of designers, researchers, 
             <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
-            photographers, videographers, and copywriters, we'll 
+            photographers, videographers, and copywriters, we&apos;ll 
             <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
             build and extend your brand in digital places.
           </Text>
