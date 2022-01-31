@@ -130,7 +130,7 @@ const About = () => {
               Graphic Design
             </Heading>
             <Text as="p" textAlign="center" p="20px" color={customColors.darkCyan}>
-              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention.
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client&apos;s attention.
             </Text>
           </Flex>
         </Flex>
