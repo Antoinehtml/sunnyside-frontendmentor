@@ -14,7 +14,6 @@ const Navbar = () => {
         <Flex justify="space-between" align="center" backgroundColor={customColors.brightBlue} p="30px 20px" h="10vh">
             <Flex cursor="pointer">
                 <Image
-                    as="a"
                     src={logo}
                     alt="sunnyside logo"
                 />
