@@ -168,7 +168,7 @@ const About = () => {
             <Heading  as="h2" color={customColors.darkBlue}>
               Photography
             </Heading>
-            <Text as="p" textAlign="center" p="20px" color={customColors.darkBlue}>
+            <Text as="p" textAlign="center" padding="20px" color={customColors.darkBlue}>
               Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
             </Text>
           </Flex>
@@ -185,7 +185,7 @@ const About = () => {
             <Heading  as="h2" fontSize="xl" color={customColors.darkBlue}>
               Photography
             </Heading>
-            <Text as="p" fontSize="smaller" textAlign="center" p="20px" color={customColors.darkBlue} p="20px 60px">
+            <Text as="p" fontSize="smaller" textAlign="center" padding="20px" color={customColors.darkBlue} p="20px 60px">
               Increase your credibility by getting the most 
               <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
               stunning, high-quality photos that improve your 
