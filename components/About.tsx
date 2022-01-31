@@ -151,7 +151,7 @@ const About = () => {
               <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
               artwork that underscores your brand message 
               <Box h="0" display={["none", "none", "none", "flex"]}><br /></Box>
-              and captures potential client's attention.
+              and captures potential client&apos;s attention.
             </Text>
           </Flex>
         </Flex>
